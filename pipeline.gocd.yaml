@@ -1,5 +1,5 @@
 pipelines:
-  Build:
+  Build_git:
     group: git
     label_template: "${repository[:8]}"
     materials:
